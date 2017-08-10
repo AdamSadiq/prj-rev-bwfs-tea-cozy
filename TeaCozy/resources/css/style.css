@@ -1,0 +1,151 @@
+*{
+  font-family: Helvetica;
+  color: Seashell;
+  background-color: Black;
+  opacity: .9;
+}
+/* BEGIN HEADER */
+#header{
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid Seashell;
+  align-items: center;
+  z-index: 100;
+  margin-top: -10px;
+  margin-left: -10px;
+  text-align: center;
+}
+
+#header a{
+  text-decoration: underline;
+}
+
+#logo{
+  height: 50px;
+  padding-left: 10px;
+}
+
+#sections{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.sections{
+  display: inline-block;
+  padding: 0px 10px;
+}
+/* END HEADER */
+/* BEGIN MISSION */
+#missionpic{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  padding-top: 69px;
+  background-image: url("../potpourrijar.jpg");
+  align-items: center;
+  margin: 0 auto;
+}
+
+#missionline{
+  width: inherit;
+  text-align: center;
+}
+/* END MISSION */
+/* BEGIN TEA OF THE MONTH */
+#teaofthemonth{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px auto 0px auto;
+}
+
+#tomline{
+  text-align: center;
+}
+
+.picline{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: inherit;
+  justify-content: space-between;
+}
+
+#picline2{
+  width: 650px;
+}
+
+.tompic{
+  width: 300px;
+  height: 200px;
+}
+/* END TEA OF THE MONTH */
+/* BEGIN LOCATIONS */
+#locations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url("../tabletea.jpg");
+  text-align: center;
+  margin: 40px auto 0 auto;
+}
+
+#alllocs{
+  display: inline-flex;
+  flex-direction: row;
+  width: 980px;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+#locword{
+  background-color: transparent;
+}
+
+#locationsword{
+  background-color: transparent;
+}
+
+.locexample{
+  text-align: center;
+  background-color: Black;
+  opacity: 1;
+  width: 300px;
+}
+
+.locexample p{
+  font-size: 19px;
+}
+/* END LOCATIONS */
+/* BEGIN FOOTER */
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+}
+
+.footerpart{
+  text-align: center;
+}
+
+#bottomname{
+  margin-bottom: 20px;
+}
+/* END FOOTER */
+/* BEGIN COPYRIGHT */
+#copyright{
+  text-align: left;
+}
+
+#copyrightwrit{
+  margin-left: 20px;
+}
